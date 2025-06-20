@@ -2,7 +2,6 @@ const mysql = require("mysql2")
 const path = require("path")
 const fs = require("fs")
 const bcrypt = require("bcrypt")
-require("dotenv").config({ path: "../.env" })
 
 const db = mysql.createConnection({
     host: process.env.host,
