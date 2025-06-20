@@ -47,7 +47,7 @@ app.use("/auth", require("./routes/auth"))
 
 
 // server port
-const dbport = process.env.port || 26894
+const dbport = process.env.PORT || 26894
 app.listen(dbport, () => {
     console.log(`Server started on port ${dbport}.`)
 })
