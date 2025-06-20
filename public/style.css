@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+ background-image:  linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+    margin-top: 10%;
+}
+
+#welcomeContainer{
+    justify-content: center;
+    text-align: center;
+    margin:0px;
+}
+#welcomeTxt{
+    color: white;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px solid black;
+}
+#welcomeLogin{
+    padding: 15px;
+    margin: 5px;
+    border: black;
+    border-radius: 10px;
+    color: black;
+    background-color:#ffffff;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease-in-out 0.8s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.65);
+}
+#welcomeLogin:hover{
+    background-color: #3ad59f
+}
+#welcomeLogin::after{
+    background-color: white;
+}

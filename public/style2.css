@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+a {
+  text-decoration: none;
+}
+body {
+
+background-image:linear-gradient(90deg, #fcff9e 0%, #c67700 100%)
+
+}
+label {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+#card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.65);
+  height: 410px;
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+  font-weight: 600;
+  border: 2px solid black;
+}
+#card-content {
+  padding: 12px 44px;
+}
+#card-title {
+  font-family: "Raleway Thin", sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+}
+
+#submit-btn {
+  background-image:linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px hsl(350, 65%, 64%);
+  cursor: pointer;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 0.8em;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.25s;
+  width: 153px;
+  font-weight: 600;
+  border: 2px solid  pink;
+}
+#submit-btn:hover {
+  box-shadow: 0px 2px 18px hsl(350, 75%, 58%);
+}
+.loginForm {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+.form-border {
+  background: -webkit-linear-gradient(right, hsl(350, 65%, 64%));
+  height: 1px;
+  width: 100%;
+}
+.form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+.underline-title {
+  background: -webkit-linear-gradient(right, hsl(350, 65%, 64%));
+  height: 2px;
+  margin: -1.1rem auto 0 auto;
+  width: 89px;
+}
+#home{
+    padding: 15px;
+}
+#homeBtn{
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: hsl(350, 75%, 58%);
+    background-color: white;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.65);
+}

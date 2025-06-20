@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/* Main container for the entire dashboard */
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+}
+
+#titleDiv{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+#user{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 17px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+
+i{
+    margin: 5px;
+    display: flex;
+    text-align: center;
+}
+
+#logout{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}   
+
+#logoutBtn{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 7px;
+    padding: 8px 12px;
+    background-color: pink;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#title{
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#statusBar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+#totalComplaints{
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+#load-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#loadComplaints{
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    background-color: rgb(150, 245, 213);
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+#complaintsContainer{
+    margin: 0;
+}
+
+#bleh{
+    text-align: center;
+    color: pink;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.7em;
+    letter-spacing: 0.5cm;
+    margin-bottom: 20px;
+}
+
+#complaintsDiv {
+    max-height: 400px; /* Adjust as needed */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px;
+}
+
+.complaint-item {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 12px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+#complaint-title{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(131, 195, 231);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#complaint-meta{
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    background-color: rgb(231, 131, 147);
+    border: 2px solid black;
+}
+
+#complaint-time, #complaint-date{
+    font-weight: 600;
+    margin: 5px;
+}
+
+#complaint-description{
+    padding: 15px;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    border: 2px solid black;
+    background-color: #f9f9f9;
+    word-wrap: break-word;
+}
+#delete{
+    
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    width: auto;
+}
+.deleteBtn{
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}

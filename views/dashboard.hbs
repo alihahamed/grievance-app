@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style3.css">
+    <title>Complaints</title>
+</head>
+<body>
+    <button onclick="logout()" id="logoutBtn">Logout</button>
+    <form method="post" action="/auth/dashboard"  name="dashboard-form" id="dashboard-form">
+    <div id="logout">
+    </div>
+    <div class="container">
+    <div id="complaintCard">
+        <div id="complaintsTitle">
+            Enter your Lame ahh Complaints 🤣🫵
+        </div>
+        
+            <div id="complaint-subject">
+                <input type="text" id="title" placeholder="What's it about...?" name="title" required>
+            </div>
+            <div id="complaintsContainer">
+                <textarea id="description" placeholder="Your complaints go here..." name="description"></textarea>
+            </div>
+            <div id="severityMeter">
+                <label for="moods" id="moodsText">What's the weather like today?</label>
+                    <select name="mood" id="moods">
+                        <option value="angry">😡</option>
+                        <option value="very-angry">👿</option>
+                        <option value="sad">😔</option>
+                        <option value="happy">😄</option>
+                    </select>
+            </div>
+        </form>
+            <div id="button">
+                <button id="submitBtn" type="submit" onclick="openBox()">Done?</button>
+            </div>
+            
+    </div>
+</div>
+
+
+<div class="boxContainer">
+    <p id="boxText">Your Complaint has been submitted to Ali 💌
+        <br>
+        Lets hope he replies back!
+    </p>
+    <button id="boxBtn" onclick="closeBox()">Complain More</button>
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
